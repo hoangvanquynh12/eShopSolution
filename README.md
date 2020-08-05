@@ -1,4 +1,4 @@
-#ASP.NET CORE project from QuynhHV
-#Techcology
-##ASP.NET
-##Entity frameword
+# ASP.NET CORE project from QuynhHV
+## Technologies
+ - ASP.NET
+ - Entity frameword
