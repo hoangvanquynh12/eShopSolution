@@ -1,13 +1,10 @@
 ﻿using eShopSolution.Data.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace eShopSolution.Data.Configuarations
 {
-    class AppConfigConfiguaration : IEntityTypeConfiguration<AppConfig>
+    public class AppConfigConfiguration : IEntityTypeConfiguration<AppConfig>
     {
         public void Configure(EntityTypeBuilder<AppConfig> builder)
         {

@@ -1,4 +1,6 @@
-﻿namespace eShopSolution.Data.Entities
+﻿using System.Collections.Generic;
+
+namespace eShopSolution.Data.Entities
 {
     public class OrderDetail
     {
@@ -8,5 +10,7 @@
         public decimal Price { get; set; }
         public Order Order { get; set; }
         public Product Product { get; set; }
+        public List<OrderDetail> OrderDetails { get; set; }
+
     }
 }
